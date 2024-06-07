@@ -1,0 +1,70 @@
+body {
+    background-color: green;
+}
+
+.Container {
+    width: 75%;
+    position: relative;
+    user-select: none;
+    margin: 0 auto;
+    resize: none;
+    touch-action: none;
+}
+
+.Header {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.Undo,
+.InactiveUndo {
+    position: absolute;
+    width: 5%;
+    padding-left: 3%;
+    padding-top: 3%;
+    cursor: pointer;
+}
+
+.Github {
+    position: absolute;
+    width: 5%;
+    right: 0px;
+    padding-right: 5%;
+    padding-top: 3%;
+    cursor: pointer;
+}
+
+.Tableau {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 15% 0;
+}
+
+.Cards {
+    width: 10%;
+    cursor: grab;
+    position: absolute;
+}
+
+.InactiveCards {
+    width: 10%;
+    position: absolute;
+}
+
+.StockCards {
+    width: 10%;
+    cursor: pointer;
+    position: absolute;
+}
+
+.PileOutline,
+.StockOutline,
+.Foundation,
+.Space {
+    width: 10%;
+    position: absolute;
+}
