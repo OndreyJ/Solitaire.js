@@ -10,6 +10,7 @@ Welcome to the Solitaire Game! This project is a classic card game built using J
 - Smooth drag-and-drop card movement
 - Clickable card movement
 - Valid move detection and handling
+- Undo button for reversing actions
 - Mobile and Desktop support
 
 ## Play Online
